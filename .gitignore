@@ -36,6 +36,9 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Ігнорувати всі файли, що знаходяться поза репозиторієм
+/*/*
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -159,6 +162,16 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Ігноруємо небажані файли
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+*.log
+.DS_Store
+.idea/
+.vscode/
+node_modules/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
