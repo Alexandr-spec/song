@@ -6,9 +6,8 @@ on this their chosen battle field
 Form the lines
 Shield by shield
 
-
 SOME text for commit
 some content
 
 some content for my buty
----------------------------------
+
